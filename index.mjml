@@ -1,0 +1,93 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <!--<mj-all padding='0'/>-->
+      <mj-body width="600px" />
+    </mj-attributes>
+    <mj-style>
+
+      .header-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        word-wrap: break-word;
+      }
+
+      .divider-container {
+          border-top: 1px solid #F85057;
+      }
+
+      .content-text-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #F85057;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+
+        white-space: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+      }
+      a {
+        outline: none;
+        text-decoration: none;
+      }
+
+      a:link {
+        text-decoration: none;
+      }
+      a:visited {
+        text-decoration: none;
+      }
+      a:hover {
+        /*text-decoration: underline;*/
+        color: hotpink;
+      }
+      a:active {
+        /*text-decoration: underline;*/
+        color: hotpink;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#FFFFFF">
+    <mj-section css-class="header-container" background-color="#EFEFEF">
+      <mj-raw>
+        <!--header-->
+      </mj-raw>
+      <mj-column width="100%">
+        <mj-text align="center" font-size="15px" font-family="Eskos">
+          OUTPUTFIELD
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text align="center" font-size="100px" font-family="EditorialNew-Regular">
+          Welcome
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text align="center" font-size="25px" font-family="neue-haas-unica-proregular">
+          THANK YOU FOR SIGNING UP <br> AND JOINING US IN OUR MISSION!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/content.mjml" />
+
+    <mj-section css-class="divider-container" background-color="#EFEFEF">
+      <mj-raw>
+        <!--footer-->
+      </mj-raw>
+      <mj-column width="100%">
+        <mj-text align="center" color="#F85057" font-size="15px" font-family="neue-haas-unica-proregular">
+          FOLLOW US ON INSTAGRAM <a href="https://www.instagram.com/output.field/"> @OUTPUTFIELD </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
