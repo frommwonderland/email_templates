@@ -1,32 +1,38 @@
 <mjml>
   <mj-head>
     <mj-attributes>
+      <mj-all width="600px"/>-
       <!--<mj-all padding='0'/>-->
-      <mj-body width="600px" />
+      <mj-body/>
     </mj-attributes>
     <mj-style>
 
       .header-container {
         display: flex;
-        justify-content: center;
         align-items: center;
+        word-wrap: break-word;
+      }
 
+      .header-wc {
+        display: flex;
+        word-wrap: break-word;
       }
 
       .divider-container {
-          border-top: 1px solid #F85057;
-          align-items: center;
-          text-align: center;
+        /*border-top: 1px solid #F85057;*/
+        display: flex;
+        align-items: center;
+        background-color: #E5E5E5;
+        word-wrap: break-word;
       }
 
       .content-text-container {
         display: flex;
-        /*justify-content: center;
-        /*align-items: center;*/
-        border: 1px solid #F85057;
+        border: 1px solid #0404FF;
         -moz-border-radius: 50%;
         border-radius: 50%;
-        background-color: #FFFFFF;
+        background-color: #E5E5E5;
+        box-shadow: 0px 0px 10px 0px #0404FF;
 
         white-space: normal;
         overflow: hidden;
@@ -34,26 +40,67 @@
         word-wrap: break-word;
       }
 
-      p {
-        text-align: center;
+      p.welcome {
+        text-shadow: 0px 0px 7px #0404FF;
+        word-break: break-all;
+        font-size: 96px;
       }
 
-      a {
+      p.header {
+        font-size: 35px;
+        color: #000000;
+      }
+
+      .footer {
+        background-color: #0404FF;
+      }
+      .header {
+        background-color: #E5E5E5;
+      }
+
+      p {
+        text-align: center;
+        line-height: 1.25;
+      }
+
+      a.cc {
+        color: #000000;
         outline: none;
         text-decoration: none;
       }
 
-      a:link {
+      a.cc:link {
+        color: #000000;
         text-decoration: none;
       }
-      a:visited {
+      a.cc:visited {
         text-decoration: none;
       }
-      a:hover {
+      a.cc:hover {
+        color: hotpink;
+      }
+      a.cc:active {
+        color: hotpink;
+      }
+
+      a.fl {
+        color: #FFFFFF;
+        outline: none;
+        text-decoration: none;
+      }
+
+      a.fl:link {
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+      a.fl:visited {
+        text-decoration: none;
+      }
+      a.fl:hover {
         /*text-decoration: underline;*/
         color: hotpink;
       }
-      a:active {
+      a.fl:active {
         /*text-decoration: underline;*/
         color: hotpink;
       }
@@ -61,36 +108,37 @@
   </mj-head>
 
   <mj-body background-color="#FFFFFF">
-    <mj-section css-class="header-container" background-color="#EFEFEF">
+    <mj-section css-class="divider-container" background-color="#E5E5E5">
       <mj-raw>
         <!--header-->
       </mj-raw>
-      <mj-column width="100%">
-        <mj-text align="center" font-size="15px" font-family="Eskos">
+      <mj-column css-class="header" width="100%">
+        <mj-text align="center" font-size="23px" font-family="Eskos">
           OUTPUTFIELD
         </mj-text>
+
       </mj-column>
-      <mj-column width="100%">
-        <mj-text align="center" font-size="100px" font-family="EditorialNew-Regular">
-          Welcome
+      <mj-column css-class="header" width="100%">
+        <mj-text align="center" font-family="EditorialNew-Regular">
+          <p class="welcome">Welcome</p>
         </mj-text>
       </mj-column>
-      <mj-column width="100%">
-        <mj-text align="center" font-size="25px" font-family="neue-haas-unica-proregular">
-          THANK YOU FOR SIGNING UP <br> AND JOINING US IN OUR MISSION!
+      <mj-column css-class="header" width="100%">
+        <mj-text align="center" font-size="20px" font-family="neue-haas-unica-proregular">
+          THANK YOU FOR SIGNING UP <br> AND JOINING OUR MISSION
         </mj-text>
       </mj-column>
     </mj-section>
 
     <mj-include path="./components/content.mjml" />
 
-    <mj-section css-class="divider-container" background-color="#EFEFEF">
+    <mj-section css-class="divider-container" padding-bottom='0'>
       <mj-raw>
         <!--footer-->
       </mj-raw>
-      <mj-column width="100%">
-        <mj-text align="center" color="#F85057" font-size="15px" font-family="neue-haas-unica-proregular">
-          FOLLOW US ON INSTAGRAM <a href="https://www.instagram.com/output.field/"> @OUTPUTFIELD </a>
+      <mj-column css-class="footer" width="100%">
+        <mj-text align="center" color="#FFFFFF" font-size="20px" font-family="neue-haas-unica-proregular">
+          FOLLOW US ON INSTAGRAM <a href="https://www.instagram.com/output.field/" class="fl"> @OUTPUTFIELD </a>
         </mj-text>
       </mj-column>
     </mj-section>
