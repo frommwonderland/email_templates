@@ -5,8 +5,8 @@
       -->
   </mj-raw>
 
-  <mj-column css-class="content-text-container" width="90%">
-    <mj-text css-class="text" align=center font-size=15px font-family="neue-haas-unica-proregular" padding="30px">
+  <mj-column css-class="content-text-container" width="97.5%">
+    <mj-text css-class="text" align=center font-size=13px font-family="neue-haas-unica-proregular" padding-bottom="20px">
       <p class="header">Who We Are</p>
       <!--<p> Outputfield is an organization amplifying the<br>
           power of local artist communities into a global<br>
@@ -25,8 +25,8 @@
     </mj-text>
   </mj-column>
 
-  <mj-column css-class="content-text-container" width="90%">
-    <mj-text css-class="text" align=center font-size=15px font-family="neue-haas-unica-proregular" padding="30px">
+  <mj-column css-class="content-text-container" width="97.5%">
+    <mj-text css-class="text" align=center font-size=13px font-family="neue-haas-unica-proregular" padding-bottom="20px">
       <p class="header">What We're Doing</p>
       <!--<p> Currently we are building the website, which will <br>
           feature an internal directory for artists to connect, <br>
@@ -40,9 +40,9 @@
     </mj-text>
   </mj-column>
 
-  <mj-column css-class="content-text-container" width="90%">
-    <mj-text css-class="text" align=center font-size=15px font-family="neue-haas-unica-proregular" padding="30px">
-      <p class="header">What You Can Do</p>
+  <mj-column css-class="content-text-container" width="97.5%">
+    <mj-text css-class="text" align=center font-size=13px font-family="neue-haas-unica-proregular" padding-bottom="20px">
+      <p class="header">How to Help</p>
       <!--<p> While you're waiting for our site to launch, <br>
           below are some things you can do to <br>
           support our cause.</p>-->
@@ -53,20 +53,20 @@
     </mj-text>
   </mj-column>
 
-  <mj-column css-class="content-text-container" width="90%">
-    <mj-text align=center font-size=35px font-family="neue-haas-unica-proregular" padding="25px">
-        <p>Consider Donating</p>
+  <mj-column css-class="content-text-container" width="97.5%">
+    <mj-text align=center font-size=20px font-family="neue-haas-unica-proregular" padding="25px">
+        <p>Fund Our Mission</p>
     </mj-text>
   </mj-column>
 
-  <mj-column css-class="content-text-container" width="90%">
-    <mj-text align=center font-size=35px font-family="neue-haas-unica-proregular" padding="25px">
+  <mj-column css-class="content-text-container" width="97.5%">
+    <mj-text align=center font-size=20px font-family="neue-haas-unica-proregular" padding="25px">
       <p><a href="https://www.instagram.com/output.field/" class="cc">Join Our Discord</a></p>
     </mj-text>
   </mj-column>
 
-  <mj-column css-class="content-text-container" width="90%">
-    <mj-text css-class="text" align=center font-size=35px font-family="neue-haas-unica-proregular" padding="25px">
+  <mj-column css-class="content-text-container" width="97.5%">
+    <mj-text css-class="text" align=center font-size=20px font-family="neue-haas-unica-proregular" padding="25px">
       <p> <a href="https://newart.city/" class="cc">View Our Exhibition</a></p>
     </mj-text>
   </mj-column>

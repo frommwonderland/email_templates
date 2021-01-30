@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
     <mj-attributes>
-      <mj-all width="600px"/>-
+      <mj-all width="320px"/>-
       <!--<mj-all padding='0'/>-->
       <mj-body/>
     </mj-attributes>
@@ -38,29 +38,35 @@
         overflow: hidden;
         text-overflow: ellipsis;
         word-wrap: break-word;
+        margin-top: 4px;
       }
 
       p.welcome {
         text-shadow: 0px 0px 7px #0404FF;
         word-break: break-all;
-        font-size: 96px;
+        font-size: 56px;
       }
 
+      .header {
+        background-color: #E5E5E5;
+      }
       p.header {
-        font-size: 35px;
+        font-size: 20px;
         color: #000000;
+        line-height: 26px;
       }
 
       .footer {
         background-color: #0404FF;
       }
-      .header {
-        background-color: #E5E5E5;
+      p.footer {
+        display: inline-block;
       }
 
       p {
         text-align: center;
-        line-height: 1.25;
+        line-height: 20px;
+        /*line-height: 1.25;*/
       }
 
       a.cc {
@@ -113,32 +119,32 @@
         <!--header-->
       </mj-raw>
       <mj-column css-class="header" width="100%">
-        <mj-text align="center" font-size="23px" font-family="Eskos">
-          OUTPUTFIELD
+        <mj-text align="center" font-size="13px" font-family="Eskos">
+          OUTPUT FIELD
         </mj-text>
 
       </mj-column>
       <mj-column css-class="header" width="100%">
-        <mj-text align="center" font-family="EditorialNew-Regular">
+        <mj-text align="center" font-family="EditorialNew-Regular" padding-top="32px">
           <p class="welcome">Welcome</p>
         </mj-text>
       </mj-column>
       <mj-column css-class="header" width="100%">
-        <mj-text align="center" font-size="20px" font-family="neue-haas-unica-proregular">
-          THANK YOU FOR SIGNING UP <br> AND JOINING OUR MISSION
+        <mj-text align="center" font-size="13px" font-family="neue-haas-unica-proregular">
+          <span style="color: #0404FF">THANK YOU</span> FOR SIGNING UP <br> AND JOINING OUR MISSION
         </mj-text>
       </mj-column>
     </mj-section>
 
     <mj-include path="./components/content.mjml" />
 
-    <mj-section css-class="divider-container" padding-bottom='0'>
+    <mj-section css-class="divider-container" padding-bottom='0' padding-top='40px'>
       <mj-raw>
         <!--footer-->
       </mj-raw>
       <mj-column css-class="footer" width="100%">
-        <mj-text align="center" color="#FFFFFF" font-size="20px" font-family="neue-haas-unica-proregular">
-          FOLLOW US ON INSTAGRAM <a href="https://www.instagram.com/output.field/" class="fl"> @OUTPUTFIELD </a>
+        <mj-text align="center" color="#FFFFFF" font-size="13px" font-family="neue-haas-unica-proregular">
+          FOLLOW US ON INSTAGRAM<a href="https://www.instagram.com/output.field/" class="fl"> @OUTPUT.FIELD</a>
         </mj-text>
       </mj-column>
     </mj-section>
