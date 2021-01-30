@@ -9,7 +9,6 @@
   <!--<![endif]-->
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <style type="text/css">
     #outlook a {
       padding: 0;
@@ -56,6 +55,12 @@
           .mj-outlook-group-fix { width:100% !important; }
         </style>
         <![endif]-->
+  <!--[if !mso]><!-->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet" type="text/css">
+  <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+  </style>
+  <!--<![endif]-->
   <style type="text/css">
     @media only screen and (min-width:480px) {
       .mj-column-per-100 {
@@ -105,20 +110,66 @@
       margin-top: 4px;
     }
 
-    p.welcome {
-      text-shadow: 0px 0px 7px #0404FF;
-      word-break: break-all;
-      font-size: 56px;
+    .cont-1 {
+      height: 240px;
+    }
+
+    .cont-2 {
+      height: 180px;
+    }
+
+    .cont-3 {
+      height: 140px;
+    }
+
+    .content-text-containerLink {
+      display: flex;
+      border: 1px solid #0404FF;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      background-color: #E5E5E5;
+      box-shadow: 0px 0px 10px 0px #0404FF;
+      height: 72px;
+      margin-top: 4px;
     }
 
     .header {
       background-color: #E5E5E5;
     }
 
-    p.header {
+    p.header1 {
+      font-family: Editorial New;
       font-size: 20px;
       color: #000000;
       line-height: 26px;
+      margin-bottom: 14px;
+    }
+
+    p.header2 {
+      font-family: Editorial New;
+      font-size: 20px;
+      color: #000000;
+      line-height: 26px;
+      margin-bottom: 8px;
+    }
+
+    p.header3 {
+      font-family: Editorial New;
+      font-size: 20px;
+      color: #000000;
+      line-height: 26px;
+      margin-bottom: 4px;
+    }
+
+    p.texts {
+      font-family: Neue Haas Unica Pro;
+      line-height: 20px;
+    }
+
+    p.welcome {
+      text-shadow: 0px 0px 7px #0404FF;
+      word-break: break-all;
+      font-size: 56px;
     }
 
     .footer {
@@ -132,7 +183,6 @@
     p {
       text-align: center;
       line-height: 20px;
-      /*line-height: 1.25;*/
     }
 
     a.cc {
@@ -151,11 +201,11 @@
     }
 
     a.cc:hover {
-      color: hotpink;
+      color: #E0FF00;
     }
 
     a.cc:active {
-      color: hotpink;
+      color: #E0FF00;
     }
 
     a.fl {
@@ -175,12 +225,12 @@
 
     a.fl:hover {
       /*text-decoration: underline;*/
-      color: hotpink;
+      color: #E0FF00;
     }
 
     a.fl:active {
       /*text-decoration: underline;*/
-      color: hotpink;
+      color: #E0FF00;
     }
   </style>
 </head>
@@ -192,16 +242,24 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#E5E5E5;background-color:#E5E5E5;width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
               <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
               <!--header-->
               <!--[if mso | IE]><td class="header-outlook" style="vertical-align:top;width:320px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix header" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Eskos;font-size:13px;line-height:1;text-align:center;color:#000000;">OUTPUT FIELD</div>
+                      <td style="vertical-align:top;padding:6px;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                <div style="font-family:Eskos;font-size:13px;line-height:1;text-align:center;color:#000000;">OUTPUT FIELD</div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </td>
                     </tr>
                   </tbody>
@@ -212,8 +270,9 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;padding-top:32px;word-break:break-word;">
-                        <div style="font-family:EditorialNew-Regular;font-size:13px;line-height:1;text-align:center;color:#000000;">
+                      <td align="center" style="font-size:0px;padding:10px 25px;padding-top:16px;word-break:break-word;">
+                        <div style="font-family:Editorial New;font-size:13px;line-height:1;text-align:center;color:#000000;">
+                          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
                           <p class="welcome">Welcome</p>
                         </div>
                       </td>
@@ -226,8 +285,8 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:neue-haas-unica-proregular;font-size:13px;line-height:1;text-align:center;color:#000000;"><span style="color: #0404FF">THANK YOU</span> FOR SIGNING UP <br> AND JOINING OUR MISSION</div>
+                      <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                        <div style="font-family:Neue Haas Unica Pro;font-size:13px;line-height:1;text-align:center;color:#000000;"><span style="color: #0404FF">THANK YOU</span> FOR SIGNING UP <br> AND JOINING OUR MISSION</div>
                       </td>
                     </tr>
                   </tbody>
@@ -244,19 +303,19 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#E5E5E5;background-color:#E5E5E5;width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+            <td style="direction:ltr;font-size:0px;padding:0;padding-top:32px;text-align:center;">
               <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
               <!--content
     align="center" color="#000000" font-size="10px"
       -->
-              <!--[if mso | IE]><td class="content-text-container-outlook" style="vertical-align:top;width:312px;" ><![endif]-->
-              <div class="mj-column-per-97-5 mj-outlook-group-fix content-text-container" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <!--[if mso | IE]><td class="content-text-container-outlook cont-1-outlook" style="vertical-align:top;width:312px;" ><![endif]-->
+              <div class="mj-column-per-97-5 mj-outlook-group-fix content-text-container cont-1" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
-                      <td align="center" class="text" style="font-size:0px;padding:10px 25px;padding-bottom:20px;word-break:break-word;">
-                        <div style="font-family:neue-haas-unica-proregular;font-size:13px;line-height:1;text-align:center;color:#000000;">
-                          <p class="header">Who We Are</p>
+                      <td align="center" class="text" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:center;color:#000000;">
+                          <p class="header1">Who We Are</p>
                           <!--<p> Outputfield is an organization amplifying the<br>
           power of local artist communities into a global<br>
           space. We provide an international mutual care <br>
@@ -264,57 +323,57 @@
           and galleries. Our mission is to neutralize the <br>
           canon and offset hegemony in the arts.
         </p>-->
-                          <p> Outputfield is an organization amplifying the power of local artist communities into a global space. We provide an international mutual care network for experimental artists, curators, venues, and galleries. Our mission is to neutralize the canon and offset hegemony in the arts. </p>
+                          <p class="texts"> Outputfield is an organization amplifying the power of local artist communities into a global space. We provide an international mutual care network for experimental artists, curators, venues, and galleries. Our mission is to neutralize the canon and offset hegemony in the arts. </p>
                         </div>
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td><td class="content-text-container-outlook" style="vertical-align:top;width:312px;" ><![endif]-->
-              <div class="mj-column-per-97-5 mj-outlook-group-fix content-text-container" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <!--[if mso | IE]></td><td class="content-text-container-outlook cont-2-outlook" style="vertical-align:top;width:312px;" ><![endif]-->
+              <div class="mj-column-per-97-5 mj-outlook-group-fix content-text-container cont-2" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
                       <td align="center" class="text" style="font-size:0px;padding:10px 25px;padding-bottom:20px;word-break:break-word;">
-                        <div style="font-family:neue-haas-unica-proregular;font-size:13px;line-height:1;text-align:center;color:#000000;">
-                          <p class="header">What We're Doing</p>
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:center;color:#000000;">
+                          <p class="header2">What We're Doing</p>
                           <!--<p> Currently we are building the website, which will <br>
           feature an internal directory for artists to connect, <br>
           and conspire, and a showcasing platform to <br>
           exhibit their collaborations. </p>-->
-                          <p> Currently we are building the website, which will feature an internal directory for artists to connect, and conspire, and a showcasing platform to exhibit their collaborations. </p>
+                          <p class="texts"> Currently we are building the website, which will feature an internal directory for artists to connect, and conspire, and a showcasing platform to exhibit their collaborations. </p>
                         </div>
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td><td class="content-text-container-outlook" style="vertical-align:top;width:312px;" ><![endif]-->
-              <div class="mj-column-per-97-5 mj-outlook-group-fix content-text-container" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <!--[if mso | IE]></td><td class="content-text-container-outlook cont-3-outlook" style="vertical-align:top;width:312px;" ><![endif]-->
+              <div class="mj-column-per-97-5 mj-outlook-group-fix content-text-container cont-3" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
                       <td align="center" class="text" style="font-size:0px;padding:10px 25px;padding-bottom:20px;word-break:break-word;">
-                        <div style="font-family:neue-haas-unica-proregular;font-size:13px;line-height:1;text-align:center;color:#000000;">
-                          <p class="header">How to Help</p>
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:center;color:#000000;">
+                          <p class="header3">How to Help</p>
                           <!--<p> While you're waiting for our site to launch, <br>
           below are some things you can do to <br>
           support our cause.</p>-->
-                          <p> While you're waiting for our site to launch, below are some things you can do to support our cause. </p>
+                          <p class="texts"> While you're waiting for our site to launch, below are some things you can do to support our cause. </p>
                         </div>
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td><td class="content-text-container-outlook" style="vertical-align:top;width:312px;" ><![endif]-->
-              <div class="mj-column-per-97-5 mj-outlook-group-fix content-text-container" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <!--[if mso | IE]></td><td class="content-text-containerLink-outlook" style="vertical-align:top;width:312px;" ><![endif]-->
+              <div class="mj-column-per-97-5 mj-outlook-group-fix content-text-containerLink" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
-                      <td align="center" style="font-size:0px;padding:25px;word-break:break-word;">
-                        <div style="font-family:neue-haas-unica-proregular;font-size:20px;line-height:1;text-align:center;color:#000000;">
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Editorial New;font-size:20px;line-height:1;text-align:center;color:#000000;">
                           <p>Fund Our Mission</p>
                         </div>
                       </td>
@@ -322,13 +381,13 @@
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td><td class="content-text-container-outlook" style="vertical-align:top;width:312px;" ><![endif]-->
-              <div class="mj-column-per-97-5 mj-outlook-group-fix content-text-container" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <!--[if mso | IE]></td><td class="content-text-containerLink-outlook" style="vertical-align:top;width:312px;" ><![endif]-->
+              <div class="mj-column-per-97-5 mj-outlook-group-fix content-text-containerLink" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
-                      <td align="center" style="font-size:0px;padding:25px;word-break:break-word;">
-                        <div style="font-family:neue-haas-unica-proregular;font-size:20px;line-height:1;text-align:center;color:#000000;">
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Editorial New;font-size:20px;line-height:1;text-align:center;color:#000000;">
                           <p><a href="https://www.instagram.com/output.field/" class="cc">Join Our Discord</a></p>
                         </div>
                       </td>
@@ -336,13 +395,13 @@
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td><td class="content-text-container-outlook" style="vertical-align:top;width:312px;" ><![endif]-->
-              <div class="mj-column-per-97-5 mj-outlook-group-fix content-text-container" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+              <!--[if mso | IE]></td><td class="content-text-containerLink-outlook" style="vertical-align:top;width:312px;" ><![endif]-->
+              <div class="mj-column-per-97-5 mj-outlook-group-fix content-text-containerLink" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
-                      <td align="center" class="text" style="font-size:0px;padding:25px;word-break:break-word;">
-                        <div style="font-family:neue-haas-unica-proregular;font-size:20px;line-height:1;text-align:center;color:#000000;">
+                      <td align="center" class="text" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Editorial New;font-size:20px;line-height:1;text-align:center;color:#000000;">
                           <p> <a href="https://newart.city/" class="cc">View Our Exhibition</a></p>
                         </div>
                       </td>
@@ -361,7 +420,7 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:40px;text-align:center;">
+            <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:32px;text-align:center;">
               <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
               <!--footer-->
               <!--[if mso | IE]><td class="footer-outlook" style="vertical-align:top;width:320px;" ><![endif]-->
@@ -369,8 +428,8 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:neue-haas-unica-proregular;font-size:13px;line-height:1;text-align:center;color:#FFFFFF;">FOLLOW US ON INSTAGRAM<a href="https://www.instagram.com/output.field/" class="fl"> @OUTPUT.FIELD</a></div>
+                      <td align="center" style="font-size:0px;padding:10px 25px;padding-right:0px;padding-left:0px;word-break:break-word;">
+                        <div style="font-family:Neue Haas Unica Pro;font-size:13px;line-height:1;text-align:center;color:#FFFFFF;">FOLLOW US ON INSTAGRAM<a href="https://www.instagram.com/output.field/" class="fl"> @OUTPUT.FIELD</a></div>
                       </td>
                     </tr>
                   </tbody>
