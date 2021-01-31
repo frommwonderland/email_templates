@@ -151,6 +151,15 @@
         /*text-decoration: underline;*/
         color: #E0FF00;
       }
+
+      .faux-shadow {
+        background-color:#555;
+        /*min-height:4px;
+        max-height:4px;
+        width:100%;*/
+        border-radius: 50%;
+      }
+
     </mj-style>
   </mj-head>
 
