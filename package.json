@@ -2,7 +2,7 @@
   "name": "outputfield",
   "license": "MIT",
   "scripts": {
-    "build": "mjml _index.mjml -o _index.html",
+    "build": "mjml index.mjml -o index.html",
     "build:watch": "mjml -w index.mjml -o index.html",
     "clean": "rm -rf dist .cache img.zip index.html",
     "compress": "zip -rj img.zip img",
