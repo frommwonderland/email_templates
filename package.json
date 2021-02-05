@@ -16,6 +16,7 @@
     "mjml-mailchimp": "0.0.5"
   },
   "dependencies": {
-    "browser-sync": "^2.26.14"
+    "browser-sync": "^2.26.14",
+    "serve": "^11.3.2"
   }
 }
