@@ -3,9 +3,16 @@
     <mj-attributes>
       <mj-all width="320px"/>-
       <!--<mj-all padding='0'/>-->
+      <!--<link rel="stylesheet" href="https://outputfield-app.vercel.app/_next/static/media/SaolDisplay-MediumItalic.5bc59372724029d2ab48b6edf0a40fa5.otf">-->
+      <!--<link rel="stylesheet" href="https://outputfield-app.vercel.app/_next/static/media/Neue-Haas-Unica-pro-regular.20ee5b55c9af11c7d12e338349af625c.ttf">-->
       <mj-body/>
     </mj-attributes>
     <mj-style>
+      @font-face {
+        font-family: Neue Haas Unica Pro;
+        src: url(https://outputfield-app.vercel.app/_next/static/media/Neue-Haas-Unica-pro-regular.20ee5b55c9af11c7d12e338349af625c.ttf) format('truetype');
+      }
+
       .header-container {
         display: flex;
         align-items: center;
@@ -88,7 +95,8 @@
         margin-bottom: 4px;
       }
       p.texts {
-        font-family: Neue Haas Unica Pro;
+        font-family: "Neue Haas Unica Pro";
+        /*font-family: NeueHaasUnicaProRegular;*/
         line-height: 20px;
       }
 
