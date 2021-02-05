@@ -14,5 +14,8 @@
     "mjml": "4.8.1",
     "mjml-cli": "4.8.1",
     "mjml-mailchimp": "0.0.5"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.14"
   }
 }
