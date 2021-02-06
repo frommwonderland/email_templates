@@ -1,0 +1,51 @@
+<html>
+<head>
+  <style type="text/css">
+  body{
+    margin: 25px 0px 0px 0px;
+    font-family: monospace;
+  }
+  .title{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .filelist{
+    margin: 25px;
+  }
+  div{
+    margin-left: 25px;
+  }
+  div.folder{
+    margin-left: 0px;
+    font-weight: bold;
+  }
+  a{
+    color:inherit;
+  }
+  </style>
+  <base target="_blank">
+</head>
+<body>
+
+<div class="title">email template assets</div>
+
+<div class="filelist" id="filelist"></div>
+
+<script type="text/javascript">
+  function init(){
+    console.log("load");
+    xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && (this.status == 200 || this.status == 0)) {
+        console.log(this);
+        document.getElementById("filelist").innerHTML = this.responseText;
+      }
+    };
+    xhttp.open("POST", "filelist/getfiles.php");
+    xhttp.send();
+  }
+  window.addEventListener("load",init);
+</script>
+</body>
+</html>
