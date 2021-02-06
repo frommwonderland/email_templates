@@ -1,4 +1,12 @@
 {
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/getfiles.php",
+      "use": "vercel-php@latest",
+      "config": { "includeFiles": ["*"] }
+    }
+  ],
   "functions": {
     "api/getfiles.php": {
       "maxDuration": 10,
