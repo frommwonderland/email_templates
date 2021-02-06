@@ -1,18 +1,20 @@
 <?php
   function getfiles($location){
+    $output = "";
     $scan = scandir($location);
     $count = sizeof($scan);
     for($i = 0; $i<$count; $i++){
       if($scan[$i] != "." && $scan[$i] != ".."){
         if(is_dir($location."/".$scan[$i])){
-          echo "<div><div class=\"folder\">".$scan[$i]."</div>";
-          getfiles($location."/".$scan[$i]);
-          echo "</div>";
+          $output .= "<div><div class=\"folder\">".$scan[$i]."</div>";
+          $output .= getfiles($location."/".$scan[$i]);
+          $output .= "</div>";
         } else {
-          echo "<div><a href=\"".$location."/".$scan[$i]."\">".$scan[$i]."</a></div>";
+          $output .= "<div><a href=\"".$location."/".$scan[$i]."\">".$scan[$i]."</a></div>";
         }
       }
     }
+    return $output;
   }
-  getfiles("../assets");
+  echo getfiles("../assets");
 ?>
