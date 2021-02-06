@@ -4,7 +4,7 @@
     {
       "src": "api/getfiles.php",
       "use": "vercel-php@latest",
-      "config": { "includeFiles": ["*"] }
+      "config": { "includeFiles": ["*"]  }
     }
   ],
   "functions": {
