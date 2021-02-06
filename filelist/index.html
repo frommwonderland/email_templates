@@ -42,7 +42,7 @@
         document.getElementById("filelist").innerHTML = this.responseText;
       }
     };
-    xhttp.open("POST",
+    xhttp.open("GET",
       window.location.protocol+"//"+window.location.hostname+
       (window.location.hostname=="localhost"?":"+window.location.port:"")+
       "/api/getfiles");
