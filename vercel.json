@@ -1,8 +1,0 @@
-{
-  "functions": {
-    "api/getfiles.php": {
-      "maxDuration": 10,
-      "runtime": "vercel-php@0.1.0"
-    }
-  }
-}
