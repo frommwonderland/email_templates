@@ -2,7 +2,6 @@
   "functions": {
     "api/getfiles.php": {
       "maxDuration": 10,
-      "public": true,
       "runtime": "vercel-php@0.1.0"
     }
   }
