@@ -6,6 +6,7 @@
   </mj-raw>
 
   <mj-column css-class="content-text-container cont-1" width="97.5%" >
+  <!--<mj-column css-class="c" width="97.5%" >-->
     <mj-text css-class="text" align=center font-size=13px>
       <p class="header1">Who We Are</p>
       <!--<p> Outputfield is an organization amplifying the<br>
