@@ -148,18 +148,6 @@
       margin-top: 4px;
     }
 
-    .circle {
-      width: 320px;
-      margin: 0px auto;
-      box-sizing: border-box;
-      position: relative;
-      padding: 34px 0px 34px;
-      background-size: 103% 100%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-image: radial-gradient(#E5E5E5 0px, #E5E5E5 152px, #0404FF 153px, #0404FF 155px, #0404FF99 155px, #E5E5E5 164px);
-    }
-
     .header {
       background-color: #E5E5E5;
     }
@@ -261,16 +249,18 @@
       color: #E0FF00;
     }
 
-    .faux-shadow {
-      background-color: #555;
-      /*min-height:4px;
-        max-height:4px;
-        width:100%;*/
-      border-radius: 50%;
-    }
-
     .text {
       font-family: Eskos;
+    }
+
+    @media (prefers-dark-interface) {
+
+      /* Your dark mode styles: */
+      .content-text-containerLink {
+        display: flex;
+         !important;
+        border: 1px solid #DB97FD;
+      }
     }
   </style>
 </head>
@@ -364,7 +354,7 @@
           and galleries. Our mission is to neutralize the <br>
           canon and offset hegemony in the arts.
         </p>-->
-                          <p class="texts"> Outputfield is an organization amplifying the power of local artist communities into a global space. We provide an international mutual care network for experimental artists, curators, venues, and galleries. Our mission is to neutralize the canon and offset hegemony in the arts. </p>
+                          <p class="texts"> Output field is an organization amplifying the power of local artist communities into a global space. We provide an international mutual care network for experimental artists, curators, venues, and galleries. Our mission is to neutralize the canon and offset hegemony in the arts. </p>
                         </div>
                       </td>
                     </tr>
@@ -415,7 +405,7 @@
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                         <div style="font-family:Editorial New;font-size:20px;line-height:1;text-align:center;color:#000000;">
-                          <p>Fund Our Mission</p>
+                          <p><a href="https://www.paypal.com/pools/c/8vgFmPcKPs" class="cc">Fund Our Mission</a></p>
                         </div>
                       </td>
                     </tr>
@@ -429,7 +419,7 @@
                     <tr>
                       <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                         <div style="font-family:Editorial New;font-size:20px;line-height:1;text-align:center;color:#000000;">
-                          <p><a href="https://www.instagram.com/output.field/" class="cc">Join Our Discord</a></p>
+                          <p><a href="https://discord.gg/ydGdKXx6XK" class="cc">Join Our Discord</a></p>
                         </div>
                       </td>
                     </tr>

@@ -80,18 +80,6 @@
         margin-top: 4px;
       }
 
-      .circle{
-        width:320px;
-        margin:0px auto;
-        box-sizing: border-box;
-        position:relative;
-        padding:34px 0px 34px;
-        background-size: 103% 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-image: radial-gradient(#E5E5E5 0px,  #E5E5E5 152px, #0404FF 153px, #0404FF 155px, #0404FF99 155px, #E5E5E5 164px);
-      }
-
       .header {
         background-color: #E5E5E5;
       }
@@ -181,16 +169,17 @@
         /*text-decoration: underline;*/
         color: #E0FF00;
       }
-
-      .faux-shadow {
-        background-color:#555;
-        /*min-height:4px;
-        max-height:4px;
-        width:100%;*/
-        border-radius: 50%;
-      }
-      .text{
+      .text {
         font-family: Eskos;
+      }
+
+      @media (prefers-dark-interface) {
+		      /* Your dark mode styles: */
+
+		   .content-text-containerLink {
+          display: flex; !important;
+          border: 1px solid #DB97FD;
+		    }
       }
 
     </mj-style>

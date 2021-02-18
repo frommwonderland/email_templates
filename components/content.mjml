@@ -16,7 +16,7 @@
           and galleries. Our mission is to neutralize the <br>
           canon and offset hegemony in the arts.
         </p>-->
-        <p class="texts"> Outputfield is an organization amplifying the
+        <p class="texts"> Output field is an organization amplifying the
             power of local artist communities into a global
             space. We provide an international mutual care
             network for experimental artists, curators, venues,
@@ -56,13 +56,13 @@
 
   <mj-column css-class="content-text-containerLink" width="97.5%">
     <mj-text align=center font-size=20px font-family="Editorial New">
-        <p>Fund Our Mission</p>
+      <p><a href="https://www.paypal.com/pools/c/8vgFmPcKPs" class="cc">Fund Our Mission</a></p>
     </mj-text>
   </mj-column>
 
   <mj-column css-class="content-text-containerLink" width="97.5%">
     <mj-text align=center font-size=20px font-family="Editorial New">
-      <p><a href="https://www.instagram.com/output.field/" class="cc">Join Our Discord</a></p>
+      <p><a href="https://discord.gg/ydGdKXx6XK" class="cc">Join Our Discord</a></p>
     </mj-text>
   </mj-column>
 
