@@ -7,7 +7,7 @@
 
   <mj-column css-class="content-text-container cont-1" width="97.5%" >
   <!--<mj-column css-class="c" width="97.5%" >-->
-    <mj-text css-class="text" align=center font-size=13px>
+    <mj-text css-class="text" align=center font-size=13px padding-left=31px padding-right=31px>
       <p class="header1">Who We Are</p>
       <!--<p> Outputfield is an organization amplifying the<br>
           power of local artist communities into a global<br>
@@ -27,7 +27,7 @@
   </mj-column>
 
   <mj-column css-class="content-text-container cont-2" width="97.5%">
-    <mj-text css-class="text" align=center font-size=13px padding-bottom="20px">
+    <mj-text css-class="text" align=center font-size=13px padding-bottom="20px" padding-left=35px padding-right=35px>
       <p class="header2">What We're Doing</p>
       <!--<p> Currently we are building the website, which will <br>
           feature an internal directory for artists to connect, <br>
@@ -42,7 +42,7 @@
   </mj-column>
 
   <mj-column css-class="content-text-container cont-3" width="97.5%">
-    <mj-text css-class="text" align=center font-size=13px padding-bottom="20px">
+    <mj-text css-class="text" align=center font-size=13px padding-bottom="20px" padding-left=35px padding-right=35px>
       <p class="header3">How to Help</p>
       <!--<p> While you're waiting for our site to launch, <br>
           below are some things you can do to <br>
@@ -55,21 +55,21 @@
   </mj-column>
 
   <mj-column css-class="content-text-containerLink" width="97.5%">
-    <mj-text align=center font-size=20px font-family="Editorial New">
+    <mj-text align=center font-size=20px font-family="Editorial New" padding-top=12px>
       <p><a href="https://www.paypal.com/pools/c/8vgFmPcKPs" class="cc">Fund Our Mission</a></p>
     </mj-text>
   </mj-column>
 
   <mj-column css-class="content-text-containerLink" width="97.5%">
-    <mj-text align=center font-size=20px font-family="Editorial New">
+    <mj-text align=center font-size=20px font-family="Editorial New" padding-top=12px>
       <p><a href="https://discord.gg/ydGdKXx6XK" class="cc">Join Our Discord</a></p>
     </mj-text>
   </mj-column>
 
   <mj-column css-class="content-text-containerLink" width="97.5%">
-    <mj-text css-class="text" align=center font-size=20px font-family="Editorial New">
+    <mj-text align=center font-size=20px font-family="Editorial New" padding-top=12px>
       <p> <a href="https://newart.city/" class="cc">View Our Exhibition</a></p>
     </mj-text>
   </mj-column>
-
+  
 </mj-section>
