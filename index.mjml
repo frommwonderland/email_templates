@@ -146,10 +146,10 @@
         text-decoration: none;
       }
       a.cc:hover {
-        color: #E0FF00;
+        color: #0404FF;
       }
       a.cc:active {
-        color: #E0FF00;
+        color: #0404FF;
       }
       a.fl {
         color: #FFFFFF;
@@ -169,7 +169,7 @@
       }
       a.fl:active {
         /*text-decoration: underline;*/
-        color: #E0FF00;
+        color: #0404FF;
       }
       .text {
         font-family: Eskos;
@@ -199,13 +199,13 @@
 
       </mj-column>
       <mj-column css-class="header" width="100%">
-        <mj-text align="center" font-family="Editorial New" padding-top="40px" line-height="71.68px">
+        <mj-text align="center" font-family="Editorial New" padding-top="48px" line-height="71.68px">
           <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
           <p class="welcome">Welcome</p>
         </mj-text>
       </mj-column>
       <mj-column css-class="header" width="100%">
-        <mj-text align="center" font-size="13px" font-family="Neue Haas Unica Pro" padding-top='10px' line-height="20px">
+        <mj-text align="center" font-size="13px" font-family="Neue Haas Unica Pro" padding-top='8px' line-height="20px">
           <span style="color: #0404FF">THANK YOU</span> FOR SIGNING UP <br> AND JOINING OUR MISSION
         </mj-text>
       </mj-column>
@@ -219,7 +219,7 @@
       </mj-raw>
       <mj-column css-class="footer" width="100%">
         <mj-text align="center" color="#FFFFFF" font-size="13px" font-family="Neue Haas Unica Pro" padding-top='9px' padding-bottom='10px' padding-left="0px" padding-right="0px">
-          FOLLOW US ON INSTAGRAM<a href="https://www.instagram.com/output.field/" class="fl"> @OUTPUT.FIELD</a>
+          <a href="https://www.instagram.com/output.field/" class="fl">FOLLOW US ON INSTAGRAM @OUTPUT.FIELD</a>
         </mj-text>
       </mj-column>
     </mj-section>
