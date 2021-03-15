@@ -1,0 +1,65 @@
+<mj-section css-class="divider-container" text-align=center padding='0' background-color="#E5E5E5" padding-top='28px'>
+  <mj-raw>
+    <!--content
+    align="center" color="#000000" font-size="10px"
+      -->
+  </mj-raw>
+
+  <mj-column css-class="join-us-column" width="97.5%" >
+    <mj-text>
+      <div class="hr-container"><hr></div>
+      <p>
+        We need volunteers who are passionate about supporting experimental arts to help us build a new network of mutual care and collaboration. 
+      </p>
+      <div class="hr-container"><hr></div>
+    </mj-text>
+    <mj-text>
+      <h2>We're looking for curators</h2>
+      <p>
+        We’re building a team of curators who are passionate about analog and digital manifestations of: 
+        <em>visual art, sound art, music, installation, sculpture, and/or performance.</em> 
+      </p>
+      <p>
+        If you have an eye for discovering emerging artists and cultivating collaborations, we need your help building our community and nurturing ideas. To apply as a curator, 
+        <em>please click "apply" to submit 10 artists to nominate to join our platform.</em> 
+        Based on your choices, we will discuss your role in our team!
+      </p>
+      <div class="cta-button">
+        apply
+      </div>
+      <div class="hr-container"><hr></div>
+    </mj-text>
+
+    <mj-text>
+      <h2>...and other experts!</h2>
+      <p>
+        We would also like to invite professionals with experience in 
+        <em>galleries, art-business, non-profits, talent agencies, music labels, entertainment, events, or activism</em>
+        to contact us. We are also looking for experts in artificial intelligence, digital art, and archival. 
+      </p>
+      <p>
+        If you knowledgable and connected in these fields, we need you! Click "apply" to tell us about yourself and your hopes for the future of your field. We look forward to reading your response.
+      </p>
+      <div class="cta-button">apply</div>
+      <div class="hr-container"><hr></div>
+    </mj-text>
+  </mj-column>
+
+  <mj-column css-class="content-text-containerLink" width="97.5%">
+    <mj-text align=center font-size=20px font-family="Editorial New" padding-top=12px>
+      <p><a href="https://www.paypal.com/pools/c/8vgFmPcKPs" class="cc">Fund Our Mission</a></p>
+    </mj-text>
+  </mj-column>
+
+  <mj-column css-class="content-text-containerLink" width="97.5%">
+    <mj-text align=center font-size=20px font-family="Editorial New" padding-top=12px>
+      <p><a href="https://discord.gg/ydGdKXx6XK" class="cc">Join Our Discord</a></p>
+    </mj-text>
+  </mj-column>
+
+  <mj-column css-class="content-text-containerLink" width="97.5%">
+    <mj-text align=center font-size=20px font-family="Editorial New" padding-top=12px>
+      <p> <a href="https://newart.city/" class="cc">View Our Exhibition</a></p>
+    </mj-text>
+  </mj-column>
+</mj-section>

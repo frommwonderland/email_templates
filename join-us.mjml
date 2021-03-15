@@ -1,0 +1,283 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all width="320px" padding='0'/>-
+      <!--<mj-all padding='0'/>-->
+      <!--<link rel="stylesheet" href="https://outputfield-app.vercel.app/_next/static/media/SaolDisplay-MediumItalic.5bc59372724029d2ab48b6edf0a40fa5.otf">-->
+      <!--<link rel="stylesheet" href="https://outputfield-app.vercel.app/_next/static/media/Neue-Haas-Unica-pro-regular.20ee5b55c9af11c7d12e338349af625c.ttf">-->
+      <mj-body/>
+    </mj-attributes>
+    <mj-style>
+    @font-face {
+      font-family: Neue Haas Unica Pro;
+      src: url("https://email-templates-brown.vercel.app/assets/fonts/Neue-Haas-Unica-pro-regular.ttf") format('truetype');
+    }
+
+    @font-face {
+      font-family: Editorial New;
+      src: url("https://email-templates-brown.vercel.app/assets/fonts/EditorialNew-Regular.otf") format('opentype');
+    }
+
+    @font-face {
+      font-family: Eskos;
+      src: url("https://email-templates-brown.vercel.app/assets/fonts/Eskos.otf") format('opentype');
+    }
+
+      .header-container {
+        display: flex;
+        align-items: center;
+        word-wrap: break-word;
+      }
+
+      .header-wc {
+        display: flex;
+        word-wrap: break-word;
+      }
+
+      .divider-container {
+        /*border-top: 1px solid #F85057;*/
+        display: flex;
+        align-items: center;
+        background-color: #E5E5E5;
+        word-wrap: break-word;
+      }
+
+      .content-text-container {
+        display: flex;
+        border: 1px solid #0404FF;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        background-color: #E5E5E5;
+        box-shadow: 0px 0px 10px 0px #0404FF;
+
+        white-space: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        margin-top: 4px;
+      }
+
+      .cont-1 {
+        height: 240px;
+      }
+
+      .cont-2 {
+        height: 180px;
+      }
+
+      .cont-3 {
+        height: 140px;
+      }
+
+      .content-text-containerLink {
+        display: flex;
+        border: 1px solid #0404FF;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        background-color: #E5E5E5;
+        box-shadow: 0px 0px 10px 0px #0404FF;
+        height: 72px;
+        margin-top: 4px;
+        text-align: center;
+      }
+
+      .header {
+        background-color: #E5E5E5;
+      }
+      p.header1 {
+        font-family: Editorial New;
+        font-size: 20px;
+        color: #000000;
+        line-height: 26px;
+        margin-bottom: -2px;
+        margin-top: 31px;
+      }
+      p.header2 {
+        font-family: Editorial New;
+        font-size: 20px;
+        color: #000000;
+        line-height: 26px;
+        margin-bottom: -2px;
+        margin-top: 24px;
+      }
+      p.header3 {
+        font-family: Editorial New;
+        font-size: 20px;
+        color: #000000;
+        line-height: 26px;
+        margin-bottom: -6px;
+        margin-top: 24px;
+      }
+      p.texts {
+        font-family: Neue Haas Unica Pro;
+        /*font-family: NeueHaasUnicaProRegular;*/
+        line-height: 20px;
+      }
+
+      .join-us-column {
+        padding-left: 34px;
+        padding-right: 34px;
+      }
+      .join-us-column .hr-container {
+        width: 0;
+        margin: 20px 0;
+      }
+      .join-us-column hr {
+        border: none;
+        border-top: 1px solid #0404FF;
+        margin: 0;
+        height: 1px;
+        position: relative;
+        left: -34px;
+        width: 320px;
+      }
+      .join-us-column  p {        
+        text-align: left;
+        font-family: Neue Haas Unica Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 20px;
+        color: #000000;
+      }
+      .join-us-column h2 {
+        font-family: Editorial New;
+        font-size: 20px;
+        color: #000000;
+        line-height: 26px;
+        margin-bottom: -2px;
+        margin-top: 24px;
+      }
+      .join-us-column em {
+        font-style: normal;
+        color: blue;
+      }
+      .join-us-column .cta-button {
+        width: 72px;
+        height: 34px;
+        text-align: center;
+        padding-top: 6px;
+        background-color: #0404FF;
+        box-shadow: 0px 0px 12px #0404FF;
+        font-family: Editorial New;
+        font-size: 16px;
+        line-height: 20px;
+        color: #ECECEC;
+        border-radius: 50%;
+      }
+
+
+      p.welcome {
+        text-shadow: 0px 0px 7px #0404FF;
+        word-break: break-all;
+        font-size: 56px;
+      }
+
+      .footer {
+        background-color: #0404FF;
+      }
+      p.footer {
+        display: inline-block;
+      }
+
+      p {
+        text-align: center;
+        line-height: 20px;
+      }
+
+      a.cc {
+        color: #000000;
+        outline: none;
+        text-decoration: none;
+      }
+
+      a.cc:link {
+        color: #000000;
+        text-decoration: none;
+      }
+      a.cc:visited {
+        text-decoration: none;
+      }
+      a.cc:hover {
+        color: #0404FF;
+      }
+      a.cc:active {
+        color: #0404FF;
+      }
+      a.fl {
+        color: #FFFFFF;
+        outline: none;
+        text-decoration: none;
+      }
+      a.fl:link {
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+      a.fl:visited {
+        text-decoration: none;
+      }
+      a.fl:hover {
+        /*text-decoration: underline;*/
+        color: #E0FF00;
+      }
+      a.fl:active {
+        /*text-decoration: underline;*/
+        color: #0404FF;
+      }
+      .text {
+        font-family: Eskos;
+      }
+
+      @media (prefers-dark-interface) {
+		      /* Your dark mode styles: */
+
+		   .content-text-containerLink {
+          display: flex; !important;
+          border: 1px solid #DB97FD;
+		    }
+      }
+
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#FFFFFF">
+    <mj-section css-class="divider-container" background-color="#E5E5E5" padding='0'>
+      <mj-raw>
+        <!--header-->
+      </mj-raw>
+      <mj-column css-class="header" width="100%" padding-top="16px">
+        <mj-text align="center" font-size="13px" font-family="Eskos">
+          OUTPUT FIELD
+        </mj-text>
+
+      </mj-column>
+      <mj-column css-class="header" width="100%">
+        <mj-text align="center" font-family="Editorial New" padding-top="48px" line-height="71.68px">
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <p class="welcome">Join Us</p>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="header" width="100%">
+        <mj-text align="center" font-size="13px" font-family="Neue Haas Unica Pro" padding-top='8px' line-height="20px">
+          DO YOU WANT TO
+          <br>
+          <span style="color: #0404FF">JOIN OUR TEAM?</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/join-us-content.mjml" />
+
+    <mj-section css-class="divider-container" padding-bottom='0' padding-top='32px'>
+      <mj-raw>
+        <!--footer-->
+      </mj-raw>
+      <mj-column css-class="footer" width="100%">
+        <mj-text align="center" color="#FFFFFF" font-size="13px" font-family="Neue Haas Unica Pro" padding-top='9px' padding-bottom='10px' padding-left="0px" padding-right="0px">
+          <a href="https://www.instagram.com/output.field/" class="fl">FOLLOW US ON INSTAGRAM @OUTPUT.FIELD</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
