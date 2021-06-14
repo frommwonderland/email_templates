@@ -1,0 +1,77 @@
+<mj-section css-class="divider-container" text-align=center padding='0' background-color="#E5E5E5" padding-top='28px'>
+  <mj-raw>
+    <!--content
+    align="center" color="#000000" font-size="10px"
+      -->
+  </mj-raw>
+
+  <mj-column css-class="on-view-column" width="97.5%" >
+    <mj-text>
+      <div class="hr-container"><hr></div>
+      <p>
+        The final room in Skin Garden, Reconsider Flesh is a breathing sculpture garden embodying the multiplicity of bodies.
+        We’re broadcasting literature that inspired it!
+      </p>
+      <div class="hr-container"><hr></div>
+    </mj-text>
+    <mj-text>
+      <h2>Skin Garden: Reconsider Flesh<br>opens with a stream of theory</h2>
+      <p>
+        For our 3rd and final opening, we present  Reconsider Flesh:
+        <em>a breathing sculpture garden nestled inside walls sculpted by Salomé Chatriot</em>.
+        Come inside to see dozens bodies sculpted by 3D artists around the world,
+        while hearing Bella Baguena's soundscape.
+        Every corner of Reconsider Flesh is an audiovisual embodiment of sonic and
+        bodily range.
+      </p>
+
+      <p>
+        Come tune in <em>live via zoom on 6/18, 2PM EST (8PM CET)</em>,
+        and hear thoughts on the multiplicity of bodies, affects of desire,
+        and other inspirations behind Reconsider Flesh.
+      </p>
+
+      <div class="skin-garden-image-container">
+        <img src="assets/images/SkinGarden.png">
+      </div>
+
+      <div class="cta-button-center-container">
+        <div class="cta-button">
+          attend
+        </div>
+      </div>
+
+      <p>
+        Enter the Garden, RSVP, and join the Zoom housewarming by clicking attend.
+      </p>
+
+      <p>
+        <em>This is a fundraiser</em>: Output Field is a new 501(c)3 non-profit calling for the redistribution of clout.
+        This is our first exhibition. We’re fundraising 5,000$ for the transdisciplinary body of artists featured in the show.
+        Additional proceeds go towards nourishing experimental arts and amplifying underrepresented artists.
+        Pay the artists!
+      </p>
+
+      <div class="hr-container"><hr></div>
+    </mj-text>
+
+  </mj-column>
+
+  <mj-column css-class="content-text-containerLink" width="97.5%">
+    <mj-text align=center font-size=20px font-family="Editorial New" padding-top=12px>
+      <p><a href="https://outputfield.com/skingarden" class="cc">Enter Skin Garden</a></p>
+    </mj-text>
+  </mj-column>
+
+  <mj-column css-class="content-text-containerLink" width="97.5%">
+    <mj-text align=center font-size=20px font-family="Editorial New" padding-top=12px>
+      <p><a href="https://us02web.zoom.us/j/88490061082" class="cc">Tune in to Live Broadcast</a></p>
+    </mj-text>
+  </mj-column>
+
+  <mj-column css-class="content-text-containerLink" width="97.5%">
+    <mj-text align=center font-size=20px font-family="Editorial New" padding-top=12px>
+      <p> <a href="https://outputfield.com/donate" class="cc">Pay the Artists</a></p>
+    </mj-text>
+  </mj-column>
+</mj-section>

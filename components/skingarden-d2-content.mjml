@@ -1,0 +1,73 @@
+<mj-section css-class="divider-container" text-align=center padding='0' background-color="#E5E5E5" padding-top='28px'>
+  <mj-raw>
+    <!--content
+    align="center" color="#000000" font-size="10px"
+      -->
+  </mj-raw>
+
+  <mj-column css-class="on-view-column" width="97.5%" >
+    <mj-text>
+      <div class="hr-container"><hr></div>
+      <p>
+        Today, in <em>New Art City</em>, we are opening up the room Bodies Unhinge,
+        an audiovisual articulation of queer affects in
+        and hosting a panel discussion/Q&#38;A  on Zoom.
+      </p>
+      <div class="hr-container"><hr></div>
+    </mj-text>
+    <mj-text>
+      <h2>Skin Garden: Bodies Unhinge<br>opens with a panel discussion</h2>
+      <p>
+        For day 2 of Skin Garden, we are opening Bodies Unhinge, an articulation of queer affect, through breath, movement, and voice. In this room, IOR50
+        and Betty Apple explore the ways unruly aesthetic experiences disrupt the borders of flesh and shake loose the psychic debris left by trauma.
+      </p>
+
+      <p>
+        For more insight, tune in at <em>12PM EST (6PM CET)</em> to our <em>panel discussion, where the artists will discuss their approach for the room</em>.
+        Curators Viv Qiu &#38; Venus in Foil will be there to answer your questions.
+      </p>
+
+      <div class="skin-garden-image-container">
+        <img src="assets/images/SkinGarden.png">
+      </div>
+
+      <div class="cta-button-center-container">
+        <div class="cta-button">
+          attend
+        </div>
+      </div>
+
+      <p>
+        Enter the Garden, RSVP, and join the Zoom housewarming by clicking attend.
+      </p>
+
+      <p>
+        <em>This is a fundraiser</em>: Output Field is a new 501(c)3 non-profit calling for the redistribution of clout.
+        This is our first exhibition. We’re fundraising 5,000$ for the transdisciplinary body of artists featured in the show.
+        Additional proceeds go towards nourishing experimental arts and amplifying underrepresented artists.
+        Pay the artists!
+      </p>
+
+      <div class="hr-container"><hr></div>
+    </mj-text>
+
+  </mj-column>
+
+  <mj-column css-class="content-text-containerLink" width="97.5%">
+    <mj-text align=center font-size=20px font-family="Editorial New" padding-top=12px>
+      <p><a href="https://outputfield.com/skingarden" class="cc">Enter Skin Garden</a></p>
+    </mj-text>
+  </mj-column>
+
+  <mj-column css-class="content-text-containerLink" width="97.5%">
+    <mj-text align=center font-size=20px font-family="Editorial New" padding-top=12px>
+      <p><a href="https://us02web.zoom.us/j/86150716637" class="cc">Tune in to Panel Discussion</a></p>
+    </mj-text>
+  </mj-column>
+
+  <mj-column css-class="content-text-containerLink" width="97.5%">
+    <mj-text align=center font-size=20px font-family="Editorial New" padding-top=12px>
+      <p> <a href="https://outputfield.com/donate" class="cc">Pay the Artists</a></p>
+    </mj-text>
+  </mj-column>
+</mj-section>

@@ -1,0 +1,86 @@
+<mj-section css-class="divider-container" text-align=center padding='0' background-color="#E5E5E5" padding-top='28px'>
+  <mj-raw>
+    <!--content
+    align="center" color="#000000" font-size="10px"
+      -->
+  </mj-raw>
+
+  <mj-column css-class="on-view-column" width="97.5%" >
+    <mj-text>
+      <div class="hr-container"><hr></div>
+      <p>
+        Today is the first day of Skin Garden’s 3-day opening.
+        Today, we are opening up the Lobby in <em>New Art City</em>
+        and celebrating on Zoom with 4 DJ sets, hosted by bien agiter.
+      </p>
+      <div class="hr-container"><hr></div>
+    </mj-text>
+    <mj-text>
+      <h2>Skin Garden: Lobby opens<br>with housewarming party</h2>
+      <p>
+        The Skin Garden lobby will be our living room for the next 3 days.
+        <em>Starting today</em>, <em>you can take a stroll inside and hear Tooba Greer Williams’ soundscape travel through Kushagra’s fleshy architectures</em>.
+        Once open, all 3 rooms will be accessible through this lobby, including Walk-ins Welcome (which opened in March).
+      </p>
+
+      <p>
+        To celebrate our first day, bien agiter and SOAK are hosting <em>4 DJ sets over Zoom starting at 2PM PST</em>.
+        Tune in for some experimental sounds from Online Threat, ASH-ANTI, softmatter, and Venus in Foil.
+      </p>
+
+      <div class="skin-garden-image-container">
+        <img src="assets/images/SkinGarden.png">
+      </div>
+
+      <div class="cta-button-center-container">
+        <div class="cta-button">
+          attend
+        </div>
+      </div>
+
+      <p>
+        Enter the Garden, RSVP, and join the Zoom housewarming by clicking attend.
+      </p>
+
+      <p>
+        <em>This is a fundraiser</em>: Output Field is a new 501(c)3 non-profit calling for the redistribution of clout.
+        This is our first exhibition. We’re fundraising 5,000$ for the transdisciplinary body of artists featured in the show.
+        Additional proceeds go towards nourishing experimental arts and amplifying underrepresented artists.
+        Pay the artists!
+      </p>
+
+      <div class="hr-container"><hr></div>
+    </mj-text>
+    <!-- <mj-text>
+      <h2>...and other experts!</h2>
+      <p>
+        We would also like to invite professionals with experience in
+        <em>galleries, art-business, non-profits, talent agencies, music labels, entertainment, events, or activism</em>
+        to contact us. We are also looking for experts in artificial intelligence, digital art, and archival.
+      </p>
+      <p>
+        If you knowledgable and connected in these fields, we need you! Click "apply" to tell us about yourself and your hopes for the future of your field. We look forward to reading your response.
+      </p>
+      <div class="cta-button">apply</div>
+      <div class="hr-container"><hr></div>
+    </mj-text> -->
+  </mj-column>
+
+  <mj-column css-class="content-text-containerLink" width="97.5%">
+    <mj-text align=center font-size=20px font-family="Editorial New" padding-top=12px>
+      <p><a href="https://outputfield.com/skingarden" class="cc">Enter Skin Garden</a></p>
+    </mj-text>
+  </mj-column>
+
+  <mj-column css-class="content-text-containerLink" width="97.5%">
+    <mj-text align=center font-size=20px font-family="Editorial New" padding-top=12px>
+      <p><a href="https://outputfield.com/pressrelease" class="cc">Tune in to Housewarming</a></p>
+    </mj-text>
+  </mj-column>
+
+  <mj-column css-class="content-text-containerLink" width="97.5%">
+    <mj-text align=center font-size=20px font-family="Editorial New" padding-top=12px>
+      <p> <a href="https://outputfield.com/donate" class="cc">Pay the Artists</a></p>
+    </mj-text>
+  </mj-column>
+</mj-section>
