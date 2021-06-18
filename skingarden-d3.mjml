@@ -271,7 +271,7 @@
         </mj-text>
       </mj-column>
       <mj-column css-class="header" width="100%">
-        <mj-text align="center" font-size="13px" font-family="Neue Haas Unica Pro" padding-top='8px' line-height="20px">
+        <mj-text align="center" font-size="13px" font-family="Neue Haas Unica Pro" padding-top='28px' line-height="20px">
           RECONSIDER FLESH IS NOW OPEN!
           <br>
           <span style="color: #0404FF">BROADCAST BEGINS IN 30 MIN!</span>
